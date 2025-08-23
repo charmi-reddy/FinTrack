@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     defaultDate: "today"
   });
 
-  // Initializing modal
+  // Initialize the modal
   const budgetModal = new bootstrap.Modal(document.getElementById('budget-modal'));
 
   // Open Add Budget modal
