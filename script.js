@@ -85,7 +85,6 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       options: { responsive: true, maintainAspectRatio: false }
     });
-
     const pieCtx = document.getElementById('pie-chart').getContext('2d');
     new Chart(pieCtx, {
       type: 'doughnut',
