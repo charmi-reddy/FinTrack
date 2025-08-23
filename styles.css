@@ -31,7 +31,7 @@ body {
 .btn-primary { background: var(--primary-color); border-color: var(--primary-color); }
 .btn-primary:hover { background: var(--secondary-color); border-color: var(--secondary-color); }
 
-/* Budget status */
+
 .budget-status { width: 15px; height: 15px; border-radius: 50%; display: inline-block; margin-right: 10px; }
 .budget-status.good { background: var(--success-color); }
 .budget-status.warning { background: var(--warning-color); }
