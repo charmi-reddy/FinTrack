@@ -17,7 +17,6 @@ document.addEventListener('DOMContentLoaded', function() {
       updateSummary(this.getAttribute('data-period'));
     });
   });
-
   function updateSummary(period) {
     let totalAmount, highest, frequent, average;
     switch(period) {
