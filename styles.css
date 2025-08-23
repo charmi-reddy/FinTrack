@@ -28,8 +28,6 @@ body {
 .budget-status.good { background: var(--success-color); }
 .budget-status.warning { background: var(--warning-color); }
 .budget-status.exceeded { background: var(--danger-color); }
-
-
 .chart-container { height: 350px; position: relative; }
 @media (max-width: 768px) { .chart-container { height: 300px; } }
 
