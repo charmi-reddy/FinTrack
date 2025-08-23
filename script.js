@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', function() {
     defaultDate: "today"
   });
   const budgetModal = new bootstrap.Modal(document.getElementById('budget-modal'));
-
-  // Open Add Budget modal
   document.getElementById('add-budget-btn').addEventListener('click', function() {
     document.getElementById('budget-modal-title').textContent = 'Add Budget';
     document.getElementById('budget-form').reset();
