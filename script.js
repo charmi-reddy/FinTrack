@@ -145,8 +145,6 @@ document.addEventListener('DOMContentLoaded', function() {
     this.reset();
     flatpickr("#expense-date", { dateFormat: "Y-m-d", defaultDate: "today" });
   });
-
-  // Save budget
   document.getElementById('save-budget-btn').addEventListener('click', function() {
     const form = document.getElementById('budget-form');
     if (form.checkValidity()) {
