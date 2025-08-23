@@ -9,8 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('budget-form').reset();
     budgetModal.show();
   });
-
-  // Period toggle
   const periodButtons = document.querySelectorAll('.period-toggle .btn');
   periodButtons.forEach(button => {
     button.addEventListener('click', function() {
