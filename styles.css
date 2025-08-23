@@ -32,7 +32,6 @@ body {
 @media (max-width: 768px) { .chart-container { height: 300px; } }
 .nav-tabs .nav-link { color: var(--text-color); border: none; border-bottom: 2px solid transparent; padding: 0.75rem 1rem; }
 .nav-tabs .nav-link.active { border-color: var(--primary-color); color: var(--primary-color); background: transparent; }
-
 .expense-form { border-radius: 1rem; padding: 1.5rem; }
 .form-control:focus, .form-select:focus { border-color: var(--primary-color); box-shadow: 0 0 0 0.2rem rgba(99,102,241,0.25); }
 
