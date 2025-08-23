@@ -122,8 +122,6 @@ document.addEventListener('DOMContentLoaded', function() {
       options: { responsive: true, maintainAspectRatio: false }
     });
   }
-
-  // Expense form submit
   document.getElementById('expense-form').addEventListener('submit', function(e) {
     e.preventDefault();
     alert('Expense added successfully! (prototype only)');
