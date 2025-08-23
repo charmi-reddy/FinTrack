@@ -105,7 +105,6 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       options: { responsive: true, maintainAspectRatio: false }
     });
-
     const areaCtx = document.getElementById('area-chart').getContext('2d');
     new Chart(areaCtx, {
       type: 'line',
