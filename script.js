@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {
-  // Initialize date picker
   flatpickr("#expense-date", {
     dateFormat: "Y-m-d",
     defaultDate: "today"
