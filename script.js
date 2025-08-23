@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', function() {
     dateFormat: "Y-m-d",
     defaultDate: "today"
   });
-
-  // Initialize the modal
   const budgetModal = new bootstrap.Modal(document.getElementById('budget-modal'));
 
   // Open Add Budget modal
