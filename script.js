@@ -65,7 +65,6 @@ document.addEventListener('DOMContentLoaded', function() {
       },
       options: { responsive: true, maintainAspectRatio: false }
     });
-
     const barCtx = document.getElementById('bar-chart').getContext('2d');
     new Chart(barCtx, {
       type: 'bar',
