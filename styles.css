@@ -21,6 +21,7 @@ body {
   font-size: 1.5rem;
   color: var(--primary-color);
 }
+
 .app-container { max-width: 1200px; margin: 0 auto; padding: 1rem; }
 .card { border-radius: 1rem; border: none; box-shadow: 0 4px 6px rgba(0,0,0,0.05); margin-bottom: 1.5rem; background: var(--card-bg); }
 .card-header { background: transparent; border-bottom: 1px solid rgba(0,0,0,0.05); font-weight: 600; padding: 1.25rem 1.5rem; }
