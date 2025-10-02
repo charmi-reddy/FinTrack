@@ -3,7 +3,8 @@ document.addEventListener('DOMContentLoaded', function() {
     dateFormat: "Y-m-d",
     defaultDate: "today"
   });
-  const budgetModal = new bootstrap.Modal(document.getElementById('budget-modal'));
+
+    const budgetModal = new bootstrap.Modal(document.getElementById('budget-modal'));
   document.getElementById('add-budget-btn').addEventListener('click', function() {
     document.getElementById('budget-modal-title').textContent = 'Add Budget';
     document.getElementById('budget-form').reset();
