@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', function() {
     document.querySelectorAll('.d-flex.justify-content-between h6')[1].innerHTML = frequent;
     document.querySelector('div > p.mb-1.text-muted + h6').textContent = average;
   }
+    
   initializeCharts();
   function initializeCharts() {
     const lineCtx = document.getElementById('line-chart').getContext('2d');
