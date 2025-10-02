@@ -8,6 +8,7 @@
   --card-bg: #ffffff;
   --text-color: #1f2937;
 }
+
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--background-color);
