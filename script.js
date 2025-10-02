@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
       this.classList.add('active');
       updateSummary(this.getAttribute('data-period'));
     });
+
   });
 
     function updateSummary(period) {
