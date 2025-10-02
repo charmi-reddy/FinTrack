@@ -45,6 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.summary-box small').textContent = 'Current year';
         break;
     }
+
     document.querySelector('.summary-box h3').textContent = totalAmount;
     document.querySelectorAll('.d-flex.justify-content-between h6')[0].innerHTML = highest;
     document.querySelectorAll('.d-flex.justify-content-between h6')[1].innerHTML = frequent;
